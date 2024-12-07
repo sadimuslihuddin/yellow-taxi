@@ -1,0 +1,39 @@
+* {
+  font-family: 'Space Grotesk';
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: #fffa66;
+  border-bottom: 1px solid black;
+  padding: 20px 35px;
+}
+
+.btn-secondary {
+  background-color: #fffa66;
+  border: 1px solid;
+  border-radius: 14px;
+  padding: 20px 35px;
+}
+
+.card {
+  border: 1px solid;
+  border-radius: 14px;
+  padding: 20px 35px;
+  filter: drop-shadow(-5px 10px 0 black)
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
